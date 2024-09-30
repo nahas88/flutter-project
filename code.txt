@@ -1,0 +1,98 @@
+ Row(
+                children: [
+                  SizedBox(
+                    width: 100,
+                    child: TextField(
+                      decoration: InputDecoration(
+                          labelText: "Number1", border: OutlineInputBorder()),
+                    ),
+                  ),
+                  SizedBox(
+                    width: 50,
+                    child: TextField(
+                      decoration: InputDecoration(
+                          labelText: "Number1", border: OutlineInputBorder()),
+                    ),
+                  ),
+                ],
+              ),
+              
+
+
+
+
+Divider(
+                thickness: 5,
+              ),
+              ElevatedButton(onPressed: () {}, child: Text("Clear")),
+              Text("---Calculations----"),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: Text("Sum"),
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.purple),
+                  ),
+                  SizedBox(
+                    width: 100,
+                    child: TextField(
+                      decoration: InputDecoration(
+                          labelText: "Sum", border: OutlineInputBorder()),
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: Text("Subtraction"),
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.purple),
+                  ),
+                  SizedBox(
+                    width: 100,
+                    child: TextField(
+                      decoration: InputDecoration(
+                          labelText: "Sub", border: OutlineInputBorder()),
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      "Multiplication",
+                    ),
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.purple),
+                  ),
+                  SizedBox(
+                    width: 100,
+                    child: TextField(
+                      decoration: InputDecoration(
+                          labelText: "Mul", border: OutlineInputBorder()),
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: Text("Division"),
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.purple),
+                  ),
+                  SizedBox(
+                    width: 100,
+                    child: TextField(
+                      decoration: InputDecoration(
+                          labelText: "Div", border: OutlineInputBorder()),
+                    ),
+                  ),
+                ],
+              ),
